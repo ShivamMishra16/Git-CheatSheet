@@ -1,0 +1,24 @@
+
+------------------------- CREATING A REPO ON GITHUB ON PUSHING LOCAL CODE ------------------------------------------------------
+
+1) Create a new repository on github GUI (website)
+		- Provide repo name
+		- description
+		- License
+
+2) Obtain the url for repo
+
+3) Open terminal and cd to the project directory
+
+4) GIT Commands (Initial Code Push):
+	i)   git init
+	ii)  git add .
+	iii) git pull <url>
+	iv)  git commit -m "<message/version>"
+	v)   git remote add <repo-name> <url>
+	vi)  git push --set-upstream <repo-name> <branch-name/master/dev etc.>               (--set-upstream is required only for first time pushing to the repo)
+
+5) for merging : (server code and local code are not in synch , i,e, not in same commit numbers)
+	git pull <repo-name> <branch-name> --allow-unrelated-hitories
+
+
